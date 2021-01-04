@@ -1,0 +1,16 @@
+#!/user/bin/env ruby   #tells environment we are using ruby code
+
+require_relative '../environment'
+
+#file we use to start our CLI 
+# ../lib is used to get out of the bin folder, then to first project folder
+
+
+# cli = CLI.new
+# cli.start
+
+# refactored above code
+
+API.get_data
+
+CLI.new.start
